@@ -1,0 +1,32 @@
+{
+  "name": "soundeck",
+  "productName": "SounDeck",
+  "version": "1.0.0",
+  "description": "SounDeck is a user-friendly soundboard software with a clean and modern interface. Easily add and organize sounds or music into folders.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "publish": "electron-forge publish"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Reverseeh"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.0",
+    "ipc": "^0.0.1",
+    "jquery": "^3.7.1"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^6.3.0",
+    "@electron-forge/maker-deb": "^6.3.0",
+    "@electron-forge/maker-rpm": "^6.3.0",
+    "@electron-forge/maker-squirrel": "^6.3.0",
+    "@electron-forge/maker-zip": "^6.3.0",
+    "@electron-forge/plugin-auto-unpack-natives": "^6.3.0",
+    "electron": "25.5.0"
+  }
+}

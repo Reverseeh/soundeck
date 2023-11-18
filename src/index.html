@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>SounDeck</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script defer src="scripts/titleBar.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="title-bar">
+        <div>
+          <button id="settings"><img src="assets/settings.svg"></button>
+          <button id="stopall"><img id="img-stopall" src="assets/stopall.svg"></button>
+        </div>
+        <header id="titleInfo"> Provaaaa </header>
+        <div>
+          <button id="minimizeApp"><img src="assets/minimize.svg"></button>
+          <button id="closeApp"><img src="assets/close.svg"></button>
+        </div>
+      </div>
+      <div class="content">
+        <!-- SOUND BOARD -->
+        <div class="soundboard">
+          <button id="1"><img id="img-1" src=""></button>
+          <button id="2"><img id="img-2" src=""></button>
+          <button id="3"><img id="img-3" src=""></button>
+          <button id="4"><img id="img-4" src=""></button>
+          <button id="5"><img id="img-5" src=""></button>
+          <button id="nextPage"><img id="img-nextPage" src="assets/rightArrow.svg"></button>
+          <button id="6"><img id="img-6" src=""></button>
+          <button id="7"><img id="img-7" src=""></button>
+          <button id="8"><img id="img-8" src=""></button>
+          <button id="9"><img id="img-9" src=""></button>
+          <button id="10"><img id="img-10" src=""></button>
+          <button id="prevPage" disabled><img id="img-prevPage" src="assets/leftArrow.svg"></button>
+          <button id="11"><img id="img-11" src=""></button>
+          <button id="12"><img id="img-12" src=""></button>
+          <button id="13"><img id="img-13" src=""></button>
+          <button id="14"><img id="img-14" src=""></button>
+          <button id="15"><img id="img-15" src=""></button>
+          <button id="closeFolder" disabled><img id="img-closeFolder" src="assets/leftArrow.svg"></button>
+        </div>
+
+        <!-- MODALS -->
+        <div class="modals">
+          <!-- ADD NEW SOUND MODAL -->
+          <div class="add-button-modal">
+            <div class="form">
+              <div>
+                <header>Name</header>
+                <input id="button-name" type="text" spellcheck="false" maxlength="28">
+              </div>
+              <div>
+                <header>Image Path</header>
+                <div class="path">
+                  <input id="image-path" type="text" spellcheck="false">
+                  <button id="button-image-path"><img id="img-button-image-path" src="assets/folder.svg"></button>
+                </div>
+              </div>
+              <div>
+                <header>Sound Path</header>
+                <div class="path">
+                  <input id="sound-path" type="text" spellcheck="false">
+                  <button id="button-sound-path"><img id="img-button-sound-path" src="assets/folder.svg"></button>
+                </div>
+              </div>
+              <div class="button-color">
+                <header>Color</header>
+                <input id="button-color" type="color">
+              </div>
+              <div class="button-loop">
+                <header>Loop</header>
+                <input id="button-loop" type="checkbox">
+              </div>
+            </div>
+            <div class="form-button">
+              <button id="sound-done">DONE</button>
+              <button id="sound-close">CLOSE</button>
+            </div>
+          </div>
+          <!-- ADD NEW FOLDER MODAL -->
+          <div class="add-folder-modal">
+            <div class="form">
+              <div>
+                <header>Name</header>
+                <input id="folder-name" type="text" spellcheck="false" maxlength="28">
+              </div>
+              <div>
+                <header>Image Path</header>
+                <div class="path">
+                  <input id="folder-image-path" type="text" spellcheck="false">
+                  <button id="button-image-path"><img id="img-button-image-path" src="assets/folder.svg"></button>
+                </div>
+              </div>
+              <div class="button-color">
+                <header>Color</header>
+                <input id="folder-color" type="color">
+              </div>
+            </div>
+            <div class="form-button">
+              <button id="folder-done">DONE</button>
+              <button id="folder-close">CLOSE</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- MENU -->
+        <div class="menu">
+          <div class="add-button-menu">
+            <button id="add-sound"><img id="img-add-sound" src="assets/sound.svg">Sound</button>
+            <button id="add-folder"><img id="img-add-folder" src="assets/folder.svg">Folder</button>
+          </div>
+          <div class="edit-button-menu">
+            <div class="slider-button"><input id="slider-button" type="range" min="0" max="100" step="1"></div>
+            <button id="edit-button"><img id="img-edit-button" src="assets/edit-menu.svg">Edit</button>
+            <button id="stop-button"><img id="img-stop-button" src="assets/stop-menu.svg">Stop</button>
+            <button id="delete-button"><img id="img-delete-button" src="assets/delete-menu.svg">Delete</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </body>
+  <!-- SCRIPTS -->
+  <script>window.$ = window.jQuery = require('jquery');</script>
+  <script src="scripts/buttons.js"></script>
+</html>
