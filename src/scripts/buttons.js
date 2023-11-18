@@ -92,13 +92,35 @@ $(document).on("click", async function (event) {
         $(".soundboard").css({"display": "none"});
         $(".modals").css({"display": "flex"});
         $(".add-button-modal").css({"display": "flex"});
-        $("#settings").prop('disabled', true);
     //OPEN ADD FOLDER MODAL
     } else if(id == "add-folder") {
         $(".soundboard").css({"display": "none"});
         $(".modals").css({"display": "flex"});
         $(".add-folder-modal").css({"display": "flex"});
-        $("#settings").prop('disabled', true);
+    //OPEN SETTINGS MODAL
+    } else if(id == "settings") {
+        if($(".settings-modal").css("display") == "none") {
+            $(".soundboard").css({"display": "none"});
+            $(".modals").css({"display": "flex"});
+            $(".add-button-modal").css({"display": "none"});
+            $(".add-folder-modal").css({"display": "none"});
+            $(".settings-modal").css({"display": "flex"});
+            $("#settings").css({"border": "2px solid rgba(var(--settings-disabled), 0.40)", "background": "rgba(var(--settings-disabled), 0.08)"});
+        } else {
+            $(".soundboard").css({"display": "flex"});
+            $(".modals").css({"display": "none"});
+            $(".settings-modal").css({"display": "none"});
+            $("#settings").css({"border": "2px solid rgba(var(--settings), 0.40)", "background": "rgba(var(--settings), 0.08)"});
+
+            $("#folder-name").val("");
+            $("#folder-color").val("#000000");
+            $("#folder-image-path").val("");
+            $("#button-name").val("");
+            $("#button-color").val("#000000");
+            $("#sound-path").val("");
+            $("#image-path").val("");
+            $("#button-loop").prop('checked', false);
+        }
     //CHOOSE IMAGE PATH
     } else if(id == "button-image-path") {
         var input = document.createElement('input');
@@ -162,7 +184,6 @@ $(document).on("click", async function (event) {
         $(".soundboard").css({"display": "flex"});
         $(".modals").css({"display": "none"});
         $(".add-button-modal").css({"display": "none"});
-        $("#settings").prop('disabled', false);
 
         $("#button-name").val("");
         $("#button-color").val("#000000");
@@ -176,7 +197,6 @@ $(document).on("click", async function (event) {
         $(".soundboard").css({"display": "flex"});
         $(".modals").css({"display": "none"});
         $(".add-button-modal").css({"display": "none"});
-        $("#settings").prop('disabled', false);
 
         $("#button-name").val("");
         $("#button-color").val("#000000");
@@ -221,7 +241,6 @@ $(document).on("click", async function (event) {
         $(".soundboard").css({"display": "flex"});
         $(".modals").css({"display": "none"});
         $(".add-folder-modal").css({"display": "none"});
-        $("#settings").prop('disabled', false);
 
         $("#folder-name").val("");
         $("#folder-color").val("#000000");

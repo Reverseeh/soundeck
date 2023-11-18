@@ -193,6 +193,21 @@ body {
   flex-direction: column;
 }
 
+.settings-modal {
+  width: 100%;
+  height: 100%;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.60);
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
 .form {
   width: 100%;
   display: flex;
@@ -509,6 +524,7 @@ button:disabled {
 :root {
   --body: #18181B;
   --settings: 114, 204, 243;
+  --settings-disabled: 244, 64, 64;
   --stopall: 244, 64, 64;
   --minimize: 241, 176, 48;
   --close: 244, 64, 64;
