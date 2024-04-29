@@ -3,8 +3,8 @@ SounDeck is a user-friendly soundboard software with a clean and modern interfac
 
 # 👀 Preview
 <div style="display: flex;">
-<img src="https://cdn.discordapp.com/attachments/1028380395114340392/1175471229336047616/Main.png?ex=656b59e4&is=6558e4e4&hm=7e70ca75398517c299826f21e92be72f0af250d66b10204b3a2dab08aa70d776&" alt="" width="400">
-<img src="https://cdn.discordapp.com/attachments/1028380395114340392/1175472294106251274/Add_new_Sound.png?ex=656b5ae2&is=6558e5e2&hm=96648348fc1ad1e34dfd43727aa0172b1b12917344f2874c2a931b8243e71639&" alt="" width="400">
+<img src="https://cdn.discordapp.com/attachments/1028380395114340392/1175471229336047616/Main.png?ex=66311ae4&is=662fc964&hm=ece4d3e039a30ac8753bb30554bb3f24a3be1538036aac5a4424b979cb783c0e&" alt="" width="400">
+<img src="https://cdn.discordapp.com/attachments/1028380395114340392/1175472294106251274/Add_new_Sound.png?ex=66311be2&is=662fca62&hm=3c11ac917671676d906da3625e63d74a0e16a8ad837020b7681a84ad709c15dc&" alt="" width="400">
 </div>
 
 ___
