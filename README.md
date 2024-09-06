@@ -1,12 +1,6 @@
 # 👋 Introduction
 SounDeck is a user-friendly soundboard software with a clean and modern interface. Easily add and organize sounds or music into folders.
 
-# 👀 Preview
-<div style="display: flex;">
-<img src="https://cdn.discordapp.com/attachments/1028380395114340392/1175471229336047616/Main.png?ex=66311ae4&is=662fc964&hm=ece4d3e039a30ac8753bb30554bb3f24a3be1538036aac5a4424b979cb783c0e&" alt="" width="400">
-<img src="https://cdn.discordapp.com/attachments/1028380395114340392/1175472294106251274/Add_new_Sound.png?ex=66311be2&is=662fca62&hm=3c11ac917671676d906da3625e63d74a0e16a8ad837020b7681a84ad709c15dc&" alt="" width="400">
-</div>
-
 ___
 
 # 🎹 Features
