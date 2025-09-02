@@ -1,3 +1,8 @@
+# 📷 Screenshot
+<img src="https://raw.githubusercontent.com/Reverseeh/soundeck/refs/heads/main/screenshots/screenshot1.png" width="420"> <img src="https://raw.githubusercontent.com/Reverseeh/soundeck/refs/heads/main/screenshots/screenshot2.png" width="420">
+
+___
+
 # 👋 Introduction
 SounDeck is a user-friendly soundboard software with a clean and modern interface. Easily add and organize sounds or music into folders.
 
